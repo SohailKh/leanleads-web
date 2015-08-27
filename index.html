@@ -28,7 +28,19 @@
             <h1 class="main-title">Hundreds of Shopify Stores are Opened Daily</h1>
             <h2>We'll get all their contact info and send it to you every morning.</h2> 
             <h3>Starting at $299/mo</h3>
-            <button id="sign_up">SIGN UP NOW</button>
+            <form action="/charge" method="POST">
+              <script
+                src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                data-key="pk_live_6BbuvMqgvfaL6HE6kvNm1fXN"
+                data-image="/img/documentation/checkout/marketplace.png"
+                data-name="UserMagnets"
+                data-description="Daily Shopify Store Updates"
+                data-amount="29900"
+                data-locale="auto">
+              </script>
+              <button id="sign_up">SIGN UP NOW</button>
+            </form>
+            
           </div>
           <img src="img/sample_2.png" />
         </div>
