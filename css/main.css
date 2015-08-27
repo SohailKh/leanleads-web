@@ -103,7 +103,10 @@ body {
     line-height: 1.25;
     font-family: 'Raleway', Calibri, Arial, sans-serif;
 }
-
+@media (max-width: 480px){
+    body {font-size:.7em;}
+    .large-header {width:90%;}
+}
 
 #large-header {
     background-color: #1e1635;
@@ -172,8 +175,8 @@ h3 {font-size:1.6em;}
     text-align: center;
     top: 40%;
     left: 50%;
-    -webkit-transform: translate3d(-50%,-50%,0);
-    transform: translate3d(-50%,-50%,0);
+    -webkit-transform: translate3d(-50%,-40%,0);
+    transform: translate3d(-50%,-40%,0);
 }
 #large-header img {
     position: absolute;
@@ -204,6 +207,10 @@ h3 {font-size:1.6em;}
 #sign_up:hover {
     transition: background-color 0.5s ease;
     background: rgba(249, 241, 233, 0.85);
+}
+
+@media (max-width: 480px) {
+    #large-header img {display:none;}
 }
 
 /* ==========================================================================
