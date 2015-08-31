@@ -38,7 +38,8 @@ window.onload = function() {
                 
         largeHeader = document.getElementById('large-header');
         largeHeader.style.height = height+'px';
-                
+        largeHeader.style.display = "block";
+        
         canvas = document.getElementById('demo-canvas');
         canvas.width = width;
         canvas.height = height;

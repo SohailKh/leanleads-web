@@ -109,6 +109,7 @@ body {
 }
 .stripe-button-el {display:none !important;}
 #large-header {
+    display:none;
     background-color: #1e1635;
     background: -webkit-linear-gradient(bottom right,#4cddff,#3b9aca 10%,#2d6ca5 20%,#2a5291 27%,#283d81 35%,#222654 50%,#1e1635 63%,#0c0010 93%,#000);
     background: -moz-linear-gradient(bottom right,#4cddff,#3b9aca 10%,#2d6ca5 20%,#2a5291 27%,#283d81 35%,#222654 50%,#1e1635 63%,#0c0010 93%,#000);
@@ -211,6 +212,18 @@ h3 {font-size:1.6em;}
 
 @media (max-width: 480px) {
     #large-header img {display:none;}
+}
+.csv_link {
+    margin-top:40px;
+    color: #f9f1e9;
+    text-align: center;
+    font-weight: 400;
+    text-decoration: none;
+    display:block;
+}
+.csv_link:hover {
+    transition: color 0.5s ease;
+    color:#FFC0CB;
 }
 
 /* ==========================================================================

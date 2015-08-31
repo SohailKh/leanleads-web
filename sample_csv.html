@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>CSV to HTML Table</title>
+    <title>Sample UserMagnets CSV</title>
     <meta name="author" content="Derek Eder">
     <meta content="Display any CSV file as a searchable, filterable, pretty HTML table" />
 
@@ -21,6 +21,13 @@
   </head>
 
   <body>
+    <style> 
+      #my_table_filter{    
+        font-size: 1.8em;
+        text-align: left;
+        padding: 25px;
+      }
+    </style>
     <div class="container-fluid">
 
       <div id='table-container'></div>
@@ -46,5 +53,13 @@
         datatables_options: {"paging": false}
       });
     </script>
+     <script>
+          (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+          function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+          e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+          e.src='https://www.google-analytics.com/analytics.js';
+          r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+          ga('create','UA-66935868-1','auto');ga('send','pageview');
+      </script>
   </body>
 </html>
