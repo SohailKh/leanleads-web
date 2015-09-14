@@ -10,11 +10,11 @@
 	1. GENERAL STRUCTURES
 ################################################################# */
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
-.animated, .fadeInUp, #main .iphone img {
+.animated, .fadeInUp, #main .data-sample img {
   animation-duration: .5s;
   animation-fill-mode: both; }
 
-.fadeInUp, #main .iphone img {
+.fadeInUp, #main .data-sample img {
   opacity: 0;
   animation-name: fadeInUp;
   animation-delay: 0.5s; }
@@ -139,10 +139,6 @@ svg {
   pointer-events: none; }
 
 /* Top 1 */
-.hspace {
-  display: inline-block;
-  margin: 0 10px; }
-
 .show {
   opacity: 1; }
 
@@ -161,6 +157,13 @@ svg {
   font-size: 3.7em;
   font-weight: 300;
   line-height: 1; }
+  @media (max-width: 767px) {
+    #main h1 {
+      font-size: 2.5em; } }
+
+@media (max-width: 767px) {
+  #main h2 {
+    font-size: 2em; } }
 
 #main h3, h4 {
   font-size: 1.5em;
@@ -173,7 +176,7 @@ svg {
 #main p {
   color: #fff; }
 
-#main .iphone img {
+#main .data-sample img {
   margin: 0 auto;
   max-height: 500px;
   margin-bottom: 20px; }
@@ -185,6 +188,13 @@ svg {
 .stripe-button-el {
   display: none !important; }
 
+.hspace {
+  display: inline-block;
+  margin: 0 10px; }
+
+@media (max-width: 767px) {
+  #reasons {
+    display: none; } }
 /* ============================== */
 /* White section */
 /* ============================== */
@@ -195,28 +205,45 @@ svg {
   font-size: 3.7em;
   font-weight: 300;
   line-height: 1.2; }
+  @media (max-width: 767px) {
+    #ws h1 {
+      font-size: 2.2em; } }
 
 #ws h2 {
   font-size: 2.6em;
   font-weight: 300;
   line-height: 1.3;
   color: #929292; }
-
-#ws .screenshots {
-  padding-bottom: 40px; }
+  @media (max-width: 767px) {
+    #ws h2 {
+      font-size: 1.5em; } }
 
 #ws p {
   line-height: 1.5; }
   #ws p a {
     border-bottom: 1px dotted #0F4B8B; }
+  @media (max-width: 767px) {
+    #ws p {
+      text-align: center;
+      font-size: 1.2em;
+      margin-bottom: 5px;
+      margin-top: 5px; } }
+
+@media (max-width: 767px) {
+  #ws .details hr.mt {
+    margin-top: 15px; } }
 
 #ws .icn {
   margin-top: 40px;
-  display: block; }
-
-.icn {
+  display: block;
   font-size: 70px;
   margin-right: 15px; }
+  @media (max-width: 767px) {
+    #ws .icn {
+      font-size: 2.5em;
+      text-align: center;
+      margin-right: 0;
+      margin-top: 0; } }
 
 .icn2 {
   font-size: 60px;
@@ -249,6 +276,10 @@ svg {
   .btn-yellow.btn-lg {
     font-weight: 900;
     padding: 20px 40px 23px 40px; }
+    @media (max-width: 767px) {
+      .btn-yellow.btn-lg {
+        font-size: 20px;
+        padding: 20px 30px 23px 30px; } }
   .btn-yellow:hover {
     background-color: #D3FF32; }
 
@@ -260,6 +291,9 @@ svg {
 /* ============================== */
 .footer {
   background-color: #eee; }
+  @media (max-width: 767px) {
+    .footer {
+      display: none; } }
 
 .navbar-inverse {
   background: transparent;
