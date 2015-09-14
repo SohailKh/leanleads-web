@@ -46,6 +46,7 @@ body {
 .centered {text-align: center}
 .mt {margin-top: 50px;}
 .mb {margin-bottom: 50px;}
+.smb {margin-bottom: 20px;}
 .mtb {margin-top: 50px; margin-bottom: 50px;}
 .lmtb {margin-top: 100px; margin-bottom: 100px;}
 .ptb {padding-top: 80px; padding-bottom: 80px;}
@@ -93,40 +94,6 @@ a:focus {
   color:#696E74;
 }
 
-/* BOOTSTRAP MODIFICATIONS */
-.navbar-inverse {
-  background: transparent;
-  border-color: transparent;
-  float:none;
-}
-
-.navbar-inverse .navbar-nav > li > a {
-  color: #fff;
-}
-
-.navbar-inverse .navbar-nav > li > a:hover {
-  color: #ddd;
-}
-
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #ddd;
-  background-color: transparent;
-}
-
-.navbar-brand {
-  font-weight: 900;
-  letter-spacing: 2px;
-  color: #fff;
-}
-
-.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
-  color: #ddd;
-}
-
-.navbar-inverse .navbar-brand {
-  color: #ddd;
-}
-
 
 /* SVG ANIMATION & CONFIGURATION */
 svg {
@@ -139,17 +106,6 @@ svg {
   margin: 0 10px;
 }
 
-.illustration {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  max-height: 100%;
-  max-width: 100%;
-  opacity: 0;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
-
 .show {
   opacity: 1;
 }
@@ -158,44 +114,10 @@ svg {
   opacity: 0;
 }
 
-.line-drawing,
-.illustration {
-  -webkit-transition: opacity 0.5s;
-  transition: opacity 0.5s;
-}
+/* ============================== */
+/* Top Section */
+/* ============================== */
 
-.line-drawing path {
-  fill: none;
-  stroke: black;
-  stroke-width: 3;
-}
-
-path.line-round {
-  stroke-linecap: round;
-}
-
-path.stroke-medium {
-  stroke-width: 2;
-}
-
-path.stroke-thin {
-  stroke-width: 1;
-}
-
-#main .iphone img {
-  margin: 0 auto;
-  max-height: 500px;
-  margin-bottom:20px;
-
-  @extend .fadeInUp;
-}
-#main h4 a {
-  color: #fff;
-  border-bottom: dotted 1px #fff;
-}
-.stripe-button-el {
-  display: none !important;
-}
 #main {
   background: #1C1929 url('/assets/img/sky.jpg') no-repeat center;
   background-size: cover;
@@ -222,8 +144,24 @@ path.stroke-thin {
   color: #fff;
 }
 
-/* White Section */
+#main .iphone img {
+  margin: 0 auto;
+  max-height: 500px;
+  margin-bottom:20px;
 
+  @extend .fadeInUp;
+}
+#main h4 a {
+  color: #fff;
+  border-bottom: dotted 1px #fff;
+}
+.stripe-button-el {
+  display: none !important;
+}
+
+/* ============================== */
+/* White section */
+/* ============================== */
 #ws {
   color: #444;
 }
@@ -266,41 +204,6 @@ path.stroke-thin {
   margin-right: 15px;
 }
 
-#ws .price {
-  text-align: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  border: 3px solid #929292;
-  margin-bottom: 20px;
-}
-
-#ws .price h1 {
-  font-weight: 700;
-  font-size: 70px;
-}
-
-#ws .price h6 {
-  font-size: 16px;
-  font-weight: 300;
-}
-
-#ws .price p {
-  font-size: 22px;
-}
-
-#ws .price .btn-trans {
-  color: #444;
-  background-color: transparent;
-  border-color: #444;
-  border-width: 2px;
-  font-weight: 700;
-  font-size: 20px;
-}
-
-#ws .price .btn-trans:hover {
-  background: #ff6
-}
-
 /* Footer Section */
 
 .signup {
@@ -324,35 +227,6 @@ path.stroke-thin {
   margin-top:25px;
 }
 
-.signup label {
-  font-size: 16px;
-}
-
-.signup input {
-  font-size: 18px;
-  min-height: 40px;
-  border-radius: 0px;
-  line-height: 20px;
-  padding: 11px 10px 12px;
-  border: 2px solid #e9f0f2;
-  margin-bottom: 10px;
-  background-color: transparent;
-  color: $yellow;
-  -webkit-transition: background-color 0.2s;
-  transition: background-color 0.2s;
-}
-
-.signup .subscribe-input {/*
-  float: left;
-  width: 70%;
-  text-align: left;
-  margin-right: 2px;*/
-}
-
-.signup .subscribe-submit {
-  right: 0;
-}
-
 .btn-yellow {
   color: #444;
   background-color: #ff6;
@@ -372,4 +246,11 @@ path.stroke-thin {
   h3 {
     margin-top: 60px;
   }
+}
+
+/* ============================== */
+/* Footer */
+/* ============================== */
+.footer {
+  background-color: #eee;
 }
