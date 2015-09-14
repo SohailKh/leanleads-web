@@ -156,10 +156,13 @@ svg {
 #main h1 {
   font-size: 3.7em;
   font-weight: 300;
-  line-height: 1; }
+  line-height: 1.2; }
   @media (max-width: 767px) {
     #main h1 {
       font-size: 2.5em; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    #main h1 {
+      font-size: 2.7em; } }
 
 @media (max-width: 767px) {
   #main h2 {
@@ -208,6 +211,9 @@ svg {
   @media (max-width: 767px) {
     #ws h1 {
       font-size: 2.2em; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    #ws h1 {
+      font-size: 2.7em; } }
 
 #ws h2 {
   font-size: 2.6em;
@@ -217,6 +223,9 @@ svg {
   @media (max-width: 767px) {
     #ws h2 {
       font-size: 1.5em; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    #ws h2 {
+      font-size: 2.2em; } }
 
 #ws p {
   line-height: 1.5; }
@@ -283,8 +292,15 @@ svg {
   .btn-yellow:hover {
     background-color: #D3FF32; }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  #faq {
+    margin-top: 0;
+    margin-bottom: 0; } }
 #faq h3 {
   margin-top: 60px; }
+  @media (min-width: 768px) and (max-width: 991px) {
+    #faq h3 {
+      margin-top: 40px; } }
 
 /* ============================== */
 /* Footer */
