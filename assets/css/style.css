@@ -208,7 +208,8 @@ path.stroke-thin {
   margin-bottom: 20px; }
 
 #main h4 a {
-  color: #fff; }
+  color: #fff;
+  border-bottom: dotted 1px #fff; }
 
 .stripe-button-el {
   display: none !important; }
@@ -230,9 +231,6 @@ path.stroke-thin {
 
 #main h4 {
   font-size: 1.3em; }
-
-#main a {
-  border-bottom: dotted 1px #fff; }
 
 #main p {
   color: #fff; }
