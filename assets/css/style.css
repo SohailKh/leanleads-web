@@ -10,10 +10,12 @@
 	1. GENERAL STRUCTURES
 ################################################################# */
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_animations\.scss}line{font-family:\000031}}
 .animated, .fadeInUp, #main .data-sample img {
   animation-duration: .5s;
   animation-fill-mode: both; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_animations\.scss}line{font-family:\000036}}
 .fadeInUp, #main .data-sample img {
   opacity: 0;
   animation-name: fadeInUp;
@@ -28,70 +30,103 @@
     opacity: 1;
     transform: translate(0, 0); } }
 /* Import fonts */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\000035}}
 * {
   margin: 0;
   padding: 0px;
   font-family: 'Lato', sans-serif; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\0000310}}
 body {
   background: #fff;
   margin: 0;
-  color: #444; }
+  color: #666; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\0000316}}
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
   font-weight: 700; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\0000321}}
 p {
   padding: 0;
   margin-bottom: 12px;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  font-size: 22px;
-  line-height: 34px;
-  color: #666;
+  font-size: 1.2em;
+  line-height: 1.6;
   margin-top: 10px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\0000331}}
 html,
 body {
   height: 100%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\0000336}}
+.small {
+  font-size: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\0000340}}
+.uppercase {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: 400; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\0000346}}
 .alignleft {
   float: left; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\0000347}}
 .alignright {
   float: right; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\0000348}}
 .aligncenter {
   margin-left: auto;
   margin-right: auto;
   display: block;
   clear: both; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\0000354}}
 .centered {
   text-align: center; }
 
-.mt {
-  margin-top: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\0000355}}
+.smt {
+  margin-top: 20px; }
 
-.mb {
-  margin-bottom: 50px; }
-
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\0000356}}
 .smb {
   margin-bottom: 20px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\0000357}}
+.mt {
+  margin-top: 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\0000358}}
+.mb {
+  margin-bottom: 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\0000359}}
+.smb {
+  margin-bottom: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\0000360}}
 .mtb {
   margin-top: 50px;
   margin-bottom: 50px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\0000361}}
 .lmtb {
   margin-top: 100px;
   margin-bottom: 100px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\0000362}}
 .ptb {
   padding-top: 80px;
   padding-bottom: 80px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\0000364}}
 .clear {
   clear: both;
   display: block;
@@ -100,16 +135,19 @@ body {
   line-height: 0;
   width: 100%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\0000372}}
 ::-moz-selection {
   color: #fff;
   text-shadow: none;
   background: #2B2E31; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\0000377}}
 ::selection {
   color: #fff;
   text-shadow: none;
   background: #2B2E31; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\0000382}}
 *,
 *:after,
 *:before {
@@ -119,6 +157,7 @@ body {
   padding: 0;
   margin: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\0000391}}
 a {
   padding: 0;
   margin: 0;
@@ -129,109 +168,144 @@ a {
   -ms-transition: background-color .4s linear, color .4s linear;
   transition: background-color .4s linear, color .4s linear; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003101}}
 a:hover,
 a:focus {
   text-decoration: none;
   color: #696E74; }
 
 /* SVG ANIMATION & CONFIGURATION */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003109}}
 svg {
   pointer-events: none; }
 
 /* Top 1 */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003115}}
 .show {
   opacity: 1; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003119}}
 .hide {
   opacity: 0; }
 
 /* ============================== */
 /* Top Section */
 /* ============================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003127}}
 #main {
-  background: #1c1929 url("/assets/img/sky.jpg") no-repeat center;
+  background: #0271bd;
   background-size: cover;
   color: #fff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003133}}
 #main h1 {
-  font-size: 3.7em;
+  font-size: 3.3em;
   font-weight: 300;
   line-height: 1.2; }
   @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003133}}
     #main h1 {
       font-size: 2.5em; } }
   @media (min-width: 768px) and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003133}}
     #main h1 {
       font-size: 2.7em; } }
 
-@media (max-width: 767px) {
-  #main h2 {
-    font-size: 2em; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003145}}
+#main h2 {
+  font-size: 19px;
+  font-weight: 300; }
+  @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003145}}
+    #main h2 {
+      font-size: 2em; } }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003152}}
+#main .pricing {
+  margin-top: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003155}}
 #main h3, h4 {
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: 100;
   line-height: 1; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003160}}
 #main h4 {
   font-size: 1.3em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003164}}
 #main p {
   color: #fff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003168}}
 #main .data-sample img {
   margin: 0 auto;
   max-height: 500px;
   margin-bottom: 20px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003175}}
 #main h4 a, #main h3 a {
   color: #fff;
   border-bottom: dotted 1px #fff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003179}}
 .stripe-button-el {
   display: none !important; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003183}}
 .hspace {
   display: inline-block;
   margin: 0 10px; }
 
 @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003190}}
   #reasons {
     display: none; } }
 /* ============================== */
 /* White section */
 /* ============================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003198}}
 #ws {
   color: #444; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003203}}
 #ws h1 {
   font-size: 3.7em;
   font-weight: 300;
   line-height: 1.2; }
   @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003203}}
     #ws h1 {
       font-size: 2.2em; } }
   @media (min-width: 768px) and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003203}}
     #ws h1 {
       font-size: 2.7em; } }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003216}}
 #ws h2 {
   font-size: 2.6em;
   font-weight: 300;
   line-height: 1.3;
   color: #929292; }
   @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003216}}
     #ws h2 {
       font-size: 1.5em; } }
   @media (min-width: 768px) and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003216}}
     #ws h2 {
       font-size: 2.2em; } }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003230}}
 #ws p {
   line-height: 1.5; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003233}}
   #ws p a {
     border-bottom: 1px dotted #0F4B8B; }
   @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003230}}
     #ws p {
       text-align: center;
       font-size: 1.2em;
@@ -239,165 +313,244 @@ svg {
       margin-top: 5px; } }
 
 @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003245}}
   #ws .details hr.mt {
     margin-top: 15px; } }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003251}}
 #ws .icn {
   margin-top: 40px;
   display: block;
   font-size: 70px;
   margin-right: 15px; }
   @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003251}}
     #ws .icn {
       font-size: 2.5em;
       text-align: center;
       margin-right: 0;
       margin-top: 0; } }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003265}}
 .icn2 {
   font-size: 60px;
   margin-right: 15px; }
 
 /* Footer Section */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003272}}
 .signup {
   padding-top: 20px;
   padding-bottom: 50px;
   background: #3a3a3a;
   color: #999; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003279}}
 .signup h2 {
   color: #eee;
   font-size: 40px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003284}}
 .signup .form {
   margin-top: 0;
   text-align: left; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003289}}
 .signup .form-group {
   margin-top: 25px; }
 
-.btn-yellow {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003293}}
+.btn {
   color: #444;
   background-color: #ff6;
-  border-width: 0;
-  font-size: 30px;
+  border-radius: 0;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: 400;
+  border-width: 1px;
+  border-color: #ffff66;
   transition: background-color 0.3s ease; }
-  .btn-yellow.btn-lg {
-    font-weight: 900;
-    padding: 20px 40px 23px 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003305}}
+  .btn.btn-lg {
+    font-weight: 400;
+    padding: 20px 40px 20px 40px; }
     @media (max-width: 767px) {
-      .btn-yellow.btn-lg {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003305}}
+      .btn.btn-lg {
         font-size: 20px;
-        padding: 20px 30px 23px 30px; } }
+        padding: 20px 30px 20px 30px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003314}}
+  .btn:hover {
+    background-color: #cccc00; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003319}}
+.btn-yellow {
+  color: #444;
+  border-color: #ffff66;
+  background-color: #ffff66; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003323}}
   .btn-yellow:hover {
-    background-color: #D3FF32; }
+    background-color: #cccc00; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003327}}
+.btn-yellow.btn-outline {
+  color: #ffff66;
+  background-color: transparent;
+  font-weight: 300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003331}}
+  .btn-yellow.btn-outline:hover {
+    background-color: #ffff66;
+    color: #444; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003336}}
+.btn-blue {
+  color: #fff;
+  border-color: #28a6fd;
+  background-color: #28a6fd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003340}}
+  .btn-blue:hover {
+    color: #fff;
+    background-color: #028ff0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003345}}
+.btn-blue.btn-outline {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003349}}
+  .btn-blue.btn-outline:hover {
+    background-color: #028ff0;
+    color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003355}}
+.btn-collection .btn {
+  margin-right: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003357}}
+  .btn-collection .btn:last-child {
+    margin-right: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003364}}
+.btn-yellow-outline {
+  color: #ffff66;
+  background-color: transparent;
+  border-width: 1px;
+  border-color: #ffff66;
+  border-radius: 0;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: 400;
+  transition: background-color 0.3s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003376}}
+  .btn-yellow-outline.btn-lg {
+    font-weight: 300;
+    padding: 20px 40px 20px 40px; }
+    @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003376}}
+      .btn-yellow-outline.btn-lg {
+        font-size: 20px;
+        padding: 20px 30px 20px 30px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003385}}
+  .btn-yellow-outline:hover {
+    background-color: #ffff66; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003391}}
+#pricing h1 {
+  font-weight: 300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003394}}
+#pricing .pricing-table {
+  padding: 48px 32px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003397}}
+#pricing .pricing-table .price {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 300;
+  color: #292929;
+  display: inline-block;
+  margin-bottom: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003406}}
+#pricing .emphasis {
+  color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003409}}
+#pricing .bg-dark .pricing-table .price {
+  color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003412}}
+#pricing .pricing-table p:last-child {
+  margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003415}}
+#pricing .pricing-table.boxed,
+#pricing .pricing-table.emphasis {
+  background: #f8f8f8; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003419}}
+#pricing .pricing-table.emphasis {
+  background: #28a6fd;
+  color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003423}}
+#pricing .pricing-table.emphasis a:not(.btn) {
+  color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003426}}
+#pricing .pricing-table.emphasis .price,
+#pricing .pricing-table.emphasis h5 {
+  color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003430}}
+#pricing .pt-2 ul {
+  line-height: 36px; }
 
 @media (min-width: 768px) and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003435}}
   #faq {
     margin-top: 0;
     margin-bottom: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003442}}
 #faq h3 {
   margin-top: 60px; }
   @media (min-width: 768px) and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003442}}
     #faq h3 {
       margin-top: 40px; } }
 
 /* ============================== */
 /* Footer */
 /* ============================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003454}}
 .footer {
   background-color: #eee; }
   @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_base\.scss}line{font-family:\00003454}}
     .footer {
       display: none; } }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_nav\.scss}line{font-family:\000031}}
 .navbar-inverse {
   background: transparent;
   border-color: transparent;
   float: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_nav\.scss}line{font-family:\000037}}
 .navbar-inverse .navbar-nav > li > a {
   color: #fff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_nav\.scss}line{font-family:\0000311}}
 .navbar-inverse .navbar-nav > li > a:hover {
   color: #ddd; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_nav\.scss}line{font-family:\0000315}}
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
   color: #ddd;
   background-color: transparent; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_nav\.scss}line{font-family:\0000320}}
 .navbar-brand {
-  font-weight: 900;
-  letter-spacing: 2px;
-  color: #fff; }
+  font-weight: 500;
+  letter-spacing: 0.3em;
+  color: #fff;
+  font-size: 1em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_nav\.scss}line{font-family:\0000327}}
 .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
   color: #ddd; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sina\/Git\/leanleads-web\/assets\/css\/_nav\.scss}line{font-family:\0000331}}
 .navbar-inverse .navbar-brand {
   color: #ddd; }
-
-.pricing { padding: 30px 0;}
-
-/*=============================================================
-    Authour URL: www.designbootstrap.com
-    
-    http://www.designbootstrap.com/
-
-    License: MIT     
-========================================================  */
-
-.db-pricing-seven {
-    margin-bottom: 30px;
-    margin-top: 30px;
-    text-align: center;
-    border: 1px solid #C5C2C2;
-    background-color: #EDEDED;
-}
-
-    .db-pricing-seven:hover {
-        margin-top: 5px;
-        -moz-transition: margin-top 0.25s ease 0s;
-        -ms-transition: margin-top 0.25s ease 0s;
-        transition: margin-top 0.25s ease 0s;
-    }
-
-    .db-pricing-seven ul {
-        list-style: none;
-        margin: 0;
-        text-align: center;
-        padding-left: 0px;
-    }
-
-        .db-pricing-seven ul li {
-            border-bottom: solid 1px #D8D8D8;
-            padding-top: 20px;
-            padding-bottom: 20px;
-            cursor: pointer;
-            text-transform: uppercase;
-        }
-
-            .db-pricing-seven ul li.price {
-                background-color: #fff;
-                padding: 40px 20px 20px 20px;
-                font-size: 20px;
-                font-weight: 900;
-                color: #353c3e;
-                font-weight: 900;
-            }
-
-                .db-pricing-seven ul li.price i {
-                    padding: 30px;
-                    font-size: 50px;
-                    display: block;
-                }
-
-
-    .db-pricing-seven .pricing-footer {
-        padding: 20px;
-    }
-
-        .db-pricing-seven .pricing-footer a i {
-            margin: 5px;
-            top: 3px;
-        }

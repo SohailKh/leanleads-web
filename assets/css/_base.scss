@@ -5,34 +5,42 @@
 * { 
   margin: 0;
   padding: 0px;
-    font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
 } 
 body { 
   background: #fff; 
   margin: 0; 
-  color: #444;
+  color: #666; 
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 700;
 }
-
 
 p { 
   padding: 0; 
   margin-bottom: 12px; 
-    font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 300;
-  font-size: 22px; 
-  line-height: 34px;
-  color: #666; 
+  font-size: 1.2em; 
+  line-height: 1.6;
   margin-top: 10px; 
 }
 
 html,
 body {
   height: 100%;
+}
+
+.small {
+  font-size: 1em;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: 400;
 }
 
 .alignleft { float: left; }
@@ -44,6 +52,8 @@ body {
   clear: both;
 }
 .centered {text-align: center}
+.smt {margin-top: 20px;}
+.smb {margin-bottom: 20px;}
 .mt {margin-top: 50px;}
 .mb {margin-bottom: 50px;}
 .smb {margin-bottom: 20px;}
@@ -115,13 +125,13 @@ svg {
 /* ============================== */
 
 #main {
-  background: #1C1929 url('/assets/img/sky.jpg') no-repeat center;
+  background: darken($blue, 20%);
   background-size: cover;
   color: #fff;
 }
 
 #main h1 {
-  font-size: 3.7em;
+  font-size: 3.3em;
   font-weight: 300;
   line-height: 1.2;
 
@@ -133,12 +143,17 @@ svg {
   }
 }
 #main h2  {
+  font-size: 19px;
+  font-weight: 300;
   @media (max-width: 767px) {
     font-size: 2em;
   }
 }
+#main .pricing {
+  margin-top: 40px;
+}
 #main h3,h4 {
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: 100;
   line-height: 1;
 }
@@ -259,7 +274,7 @@ svg {
   padding-bottom: 50px;
   background: #3a3a3a;
   color: #999;
-  }
+}
 
 .signup h2 {
   color: #eee;
@@ -275,23 +290,145 @@ svg {
   margin-top:25px;
 }
 
-.btn-yellow {
+.btn {
   color: #444;
   background-color: #ff6;
-  border-width: 0;
-  font-size: 30px;
+  border-radius: 0;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: 400;
+  border-width: 1px;
+  border-color: $yellow;
+
   transition: background-color 0.3s ease;
   &.btn-lg {
-    font-weight: 900;
-    padding: 20px 40px 23px 40px;
+    font-weight: 400;
+    padding: 20px 40px 20px 40px;
 
     @media (max-width: 767px) {
       font-size: 20px;
-      padding: 20px 30px 23px 30px;
+      padding: 20px 30px 20px 30px;
     }
   }
   &:hover {
-    background-color: #D3FF32;
+    background-color: darken($yellow, 30%);
+  }
+}
+
+.btn-yellow {
+  color: #444;
+  border-color: $yellow;
+  background-color: $yellow;
+  &:hover {
+    background-color: darken($yellow, 30%);
+  }
+}
+.btn-yellow.btn-outline {
+  color: $yellow;
+  background-color: transparent;
+  font-weight: 300;
+  &:hover {
+    background-color: $yellow;
+    color: #444;
+  }
+}
+.btn-blue {
+  color: #fff;
+  border-color: $blue;
+  background-color: $blue;
+  &:hover {
+    color: #fff;
+    background-color: darken($blue, 10%);
+  }
+}
+.btn-blue.btn-outline {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+  &:hover {
+    background-color: darken($blue, 10%);
+    color: #fff;
+  }
+}
+.btn-collection {
+  .btn {
+    margin-right: 5px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+
+.btn-yellow-outline {
+  color: $yellow;
+  background-color: transparent;
+  border-width: 1px;
+  border-color: $yellow;
+  border-radius: 0;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: 400;
+
+  transition: background-color 0.3s ease;
+  &.btn-lg {
+    font-weight: 300;
+    padding: 20px 40px 20px 40px;
+
+    @media (max-width: 767px) {
+      font-size: 20px;
+      padding: 20px 30px 20px 30px;
+    }
+  }
+  &:hover {
+    background-color: $yellow;
+  }
+}
+
+#pricing {
+  h1 {
+    font-weight: 300;
+  }
+  .pricing-table {
+    padding: 48px 32px;
+  }
+  .pricing-table .price {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 300;
+    color: #292929;
+    display: inline-block;
+    margin-bottom: 16px;
+  }
+  .emphasis {
+    color: #fff;
+  }
+  .bg-dark .pricing-table .price {
+    color: #fff;
+  }
+  .pricing-table p:last-child {
+    margin-bottom: 0;
+  }
+  .pricing-table.boxed,
+  .pricing-table.emphasis {
+    background: #f8f8f8;
+  }
+  .pricing-table.emphasis {
+    background: $blue;
+    color: #fff;
+  }
+  .pricing-table.emphasis a:not(.btn) {
+    color: #fff;
+  }
+  .pricing-table.emphasis .price,
+  .pricing-table.emphasis h5 {
+    color: #fff;
+  }
+  .pt-2 ul {
+    line-height: 36px;
   }
 }
 
