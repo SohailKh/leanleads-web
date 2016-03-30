@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://leanleads.com/</loc>
+    <lastmod>2016-03-30</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://leanleads.com/assets/img/shopify_spreadsheet.png</image:loc>
+      <image:title>list of all shopify stores as csv</image:title>
+      <image:caption>list of all shopify stores as csv</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://leanleads.com/sample_csv_of_all_shopify_stores.html</loc>
+    <lastmod>2016-01-30</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.0</priority>
+  </url>
+</urlset>
+<!--<guid value="11c50d7e-b002-407e-bfeb-2af81a7f570c" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
