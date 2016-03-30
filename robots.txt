@@ -2,4 +2,4 @@
 
 # Allow crawling of all content
 User-agent: *
-Disallow:
+Disallow: /sample_csv_of_all_shopify_stores.html
